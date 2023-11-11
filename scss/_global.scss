@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1300px;
+    height: 5000px;
+    border: 1px solid;
+    margin: 0 auto;
+    background-image: url(../img/Photo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y:150px;
+}

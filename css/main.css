@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+main {
+  width: 1300px;
+  height: 5000px;
+  border: 1px solid;
+  margin: 0 auto;
+  background-image: url(../img/Photo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 150px;
+}
+
+.container {
+  width: 62%;
+  height: 100%;
+  margin: 0 auto;
+}
+.container .header {
+  width: 100%;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  gap: 170px;
+}
+.container .header .nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.container .header .nav .nav-logo {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.container .header .nav .nav-logo img {
+  width: 110px;
+  height: 35px;
+}
+.container .header .nav .nav-list {
+  width: 60%;
+  height: 100%;
+}
+.container .header .nav .nav-list ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 25px;
+}
+.container .header .nav .nav-list ul li {
+  display: flex;
+  gap: 40px;
+  color: #292F36;
+  text-align: center;
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%;
+}
+.container .header .nav .nav-list ul li:hover {
+  width: 200px;
+  height: 20px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: 3s;
+}
+.container .header .header-hero {
+  width: 330px;
+  height: 120px;
+  border-radius: 37px 37px 0 0;
+  margin-left: 230px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .header .header-hero h3 {
+  color: #292F36;
+  font-family: DM Serif Display;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 125%;
+}
+.container .header .header-hero p {
+  color: #4D5053;
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+
+.hero {
+  width: 100%;
+  height: 300px;
+  margin-top: 200px;
+  border-radius: 70px;
+  background: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero-nav {
+  width: 90%;
+  height: 50%;
+  display: flex;
+  gap: 75px;
+}
+.hero .hero-nav .hero-left {
+  width: 30%;
+  height: 100%;
+}
+.hero .hero-nav .hero-left h2 {
+  color: #292F36;
+  font-family: DM Serif Display;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 125%;
+}
+.hero .hero-nav .hero-left p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #4D5053;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.22px;
+}
+.hero .hero-nav .hero-right {
+  width: 60%;
+  height: 100%;
+}
+.hero .hero-nav .hero-right ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21.2px;
+}
+.hero .hero-nav .hero-right ul li {
+  width: 30%;
+  height: 100%;
+}
+.hero .hero-nav .hero-right ul li img {
+  width: 100%;
+  height: 70%;
+}
+.hero .hero-nav .hero-right ul li p {
+  text-align: center;
+  color: #292F36;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: 120%; /* 30px */
+  letter-spacing: 0.2px;
+}
+
+.about {
+  width: 100%;
+  height: 2000px;
+  margin-top: 100px;
+}
+.about img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

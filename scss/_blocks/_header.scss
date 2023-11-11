@@ -1,0 +1,113 @@
+.container{
+    width: 62%;
+    height: 100%;
+    // border: 1px solid;
+    margin: 0 auto;
+
+    .header{
+        width: 100%;
+        height:390px;
+        // border: 1px solid;
+        display: flex;
+        flex-direction:  column;
+        gap: 170px;
+
+
+        
+        .nav{
+            width: 100%;
+            height: 50px;
+            // border: 1px solid;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            
+            .nav-logo{
+                width: 40%;
+                height: 100%;
+                // border: 1px solid;
+                display: flex;
+                align-items: center;
+                
+                img{
+                    width: 110px;
+                    height: 35px;
+                }
+            }
+            
+            .nav-list{
+                width: 60%;
+                height: 100%;
+                // border: 1px solid;
+                
+                
+                ul{
+                    width: 100%;
+                    height: 100%;
+                    // border: 1px solid;
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;
+                    gap: 25px;
+               
+               
+               li{
+                   display: flex;
+                   gap: 40px;
+                   color: #292F36;
+                    text-align: center;
+                    font-family: Jost;
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 125%;
+                }
+
+                li:hover{
+                    width: 200px;
+                    height: 20px;
+                    color: white ;
+                    background-color: black;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    transition: 3s;
+                }
+            }
+         }
+
+        } 
+        
+        .header-hero{
+            width: 330px;
+            height: 120px;
+            // border: 1px solid;
+            border-radius: 37px 37px 0 0;
+            margin-left: 230px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+
+            h3{
+                color: #292F36;
+                font-family: DM Serif Display;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 125%; 
+            }
+
+            p{
+                color: #4D5053;
+                font-family: Jost;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: 0.22px;
+            }
+        }
+    }
+}
